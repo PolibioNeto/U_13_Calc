@@ -39,16 +39,16 @@ export default function App() {
     // Faz ação referente tecla pressionada
     switch (operator) {
       case '+':
-        setCurrentNumber((fistNumber + lastNumber).toString());
+        setCurrentNumber((fistNumber + lastNumber).toFixed(6).toString());
         return;
       case '-':
-        setCurrentNumber((fistNumber - lastNumber).toString());
+        setCurrentNumber((fistNumber - lastNumber).toFixed(6).toString());
         return;
       case 'x':
-        setCurrentNumber((fistNumber * lastNumber).toString());
+        setCurrentNumber((fistNumber * lastNumber).toFixed(6).toString());
         return;
       case '/':
-        setCurrentNumber((fistNumber / lastNumber).toString());
+        setCurrentNumber((fistNumber / lastNumber).toFixed(6).toString()); // Erro do decimal
         return;
     }
   }
