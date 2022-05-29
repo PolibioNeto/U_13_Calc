@@ -137,7 +137,7 @@ export default function App() {
               <Text
                 style={[
                   styles.textButton,
-                  {color: typeof button === 'number' ? 'White' : '#bdbdbd'},
+                  {color: typeof button === 'number' ? 'white' : '#bdbdbd'},
                 ]}>
                 {button}
               </Text>
@@ -156,11 +156,11 @@ const styles = StyleSheet.create({
   },
   results: {
     flex: 2,
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     backgroundColor: '#21024d',
   },
   resultText: {
-    color: 'White',
+    color: 'white',
     fontSize: 32,
     fontWeight: 'bold',
     padding: 12,
