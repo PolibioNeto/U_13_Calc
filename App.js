@@ -137,7 +137,7 @@ export default function App() {
               <Text
                 style={[
                   styles.textButton,
-                  {color: typeof button === 'number' ? 'black' : '#0093a6'},
+                  {color: typeof button === 'number' ? 'White' : '#bdbdbd'},
                 ]}>
                 {button}
               </Text>
