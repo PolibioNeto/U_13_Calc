@@ -160,14 +160,14 @@ const styles = StyleSheet.create({
     backgroundColor: '#21024d',
   },
   resultText: {
-    color: '#282F38',
+    color: 'White',
     fontSize: 32,
     fontWeight: 'bold',
     padding: 12,
     textAlign: 'right',
   },
   historyText: {
-    color: '#7c7c7c',
+    color: '#bdbdbd',
     fontSize: 20,
     marginRight: 10,
     alignSelf: 'flex-end',
