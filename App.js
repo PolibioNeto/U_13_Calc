@@ -123,7 +123,7 @@ export default function App() {
             <TouchableOpacity
               onPress={() => handleInput(button)}
               key={button}
-              style={[styles.button, {backgroundColor: '#3dd0e3'}]}>
+              style={[styles.button, {backgroundColor: '#21024d'}]}>
               <Text style={[styles.textButton, {color: 'white', fontSize: 30}]}>
                 {button}
               </Text>
